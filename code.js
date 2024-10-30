@@ -1,4 +1,3 @@
-
 function fib(n){
   function _fib(n2, acc, acc2){
     if (n2 <= 1) return acc2;
