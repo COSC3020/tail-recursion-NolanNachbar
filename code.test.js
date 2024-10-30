@@ -3,9 +3,9 @@ const jsc = require('jsverify');
 
 eval(fs.readFileSync('code.js')+'');
 
-function fib(n) {
+function fibTest(n) {
   if (n <= 2) return 1;
-  else return fib(n-1) + fib(n-2);
+  else return fibTest(n-1) + fibTest(n-2);
 }
 
 const test =
