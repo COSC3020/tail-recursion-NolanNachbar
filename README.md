@@ -20,7 +20,7 @@ non-tail-recursive version? Why, or why not, and what is the complexity
 markdown file.
 
 Recall both versions,
-- The Tail-Recursive Fibonacci
+# The Tail-Recursive Fibonacci
 ```js
 function fib(n){
   function _fib(n2, acc, acc2){
@@ -30,7 +30,7 @@ function fib(n){
   return _fib(n, 1, 1);
 }
 ```
-- The Non-Tail-Recursive Fibonacci
+# The Non-Tail-Recursive Fibonacci
 ```js
 function fib(n) {
   if (n <= 2) return 1;
@@ -43,7 +43,7 @@ The asymptotic complexity of the non-tail-recursive version is exponential $O(2^
 
 Thus they are different.
 
-I did this entirely indepdently except for looking at the slides anf using the basic Fibonacci code from there. I also modified the testcode from the Fibonacci-Invariants assignment. 
+I did this entirely indepdently except for looking at the slides and using the basic Fibonacci code from there. I also modified the testcode from the Fibonacci-Invariants assignment. 
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
 
